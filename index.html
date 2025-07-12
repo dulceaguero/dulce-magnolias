@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulces Magnolias</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand&family=Montserrat&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="Imagen/dulce.png">
+</head>
+
+<body>
+    <header>
+        <h1>Dulces Magnolias</h1>
+    </header>
+
+    <nav>
+        <a href="#hero">Inicio</a>
+        <a href="#producto">Productos</a>
+        <a href="#formulario-consultas">Contacto</a>
+        <a href="#formulario-reseñas">Reseñas</a>
+        <a href="#carrito">Carrito</a>
+    </nav>
+
+    <section id="hero" class="hero">
+        <h2>Descubrí lo que tenemos para vos</h2>
+    </section>
+
+    <main>
+
+        <section id="producto" class="producto">
+            <div class="producto-tarjeta">
+                <img src="Imagen/tortachocoalte.jpg" alt="Torta de chocolate">
+                <div class="producto-info">
+                    <h3 class="titulo">Torta de Chocolate</h3>
+                    <p class="precio">$5000</p>
+                    <button class="boton-venta">Comprar</button>
+                    <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="producto-tarjeta">
+                <img src="Imagen/alfajor.jpg" alt="Producto 2">
+                <div class="producto-info">
+                    <h3 class="titulo">Alfojores de Chocolate</h3>
+                    <p class="precio">$2500</p>
+                    <button class="boton-venta">Comprar</button>
+                    <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="producto-tarjeta">
+                <img src="Imagen/alfajor de maicena.jpeg" alt="Producto número 3">
+                <div class="producto-info">
+                    <h3 class="titulo">Alfajor de Maicena</h3>
+                    <p class="precio">$2000</p>
+                    <button class="boton-venta">Comprar</button>
+                    <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="producto-tarjeta">
+                <img src="Imagen/bombones.avif" alt="Producto número 4">
+                <div class="producto-info">
+                    <h3 class="titulo">Bombones de chocolate por KG.</h3>
+                    <p class="precio">$5000</p>
+                    <button class="boton-venta">Comprar</button>
+                    <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="producto-tarjeta">
+                <img src="Imagen/frutales.png" alt="Producto número 5">
+                <div class="producto-info">
+                    <h3 class="titulo">Frutales</h3>
+                    <p class="precio">$3500</p>
+                    <button class="boton-venta">Comprar</button>
+                    <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="producto-tarjeta">
+                <img src="Imagen/lemonpie.jpg" alt="Producto número 5">
+                <div class="producto-info">
+                    <h3 class="titulo">Lemon Pie</h3>
+                    <p class="precio">$7500</p>
+                    <button class="boton-venta">Comprar</button>
+                    <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="producto-tarjeta">
+                <img src="Imagen/budin-marmolados2.png" alt="Producto número 5">
+                <div class="producto-info">
+                    <h3 class="titulo">Budin Marmolado</h3>
+                    <p class="precio">$3500</p>
+                    <button class="boton-venta">Comprar</button>
+                    <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="producto-tarjeta">
+                <img src="Imagen/mini_chocotorta.jpg" alt="Producto número 5">
+                <div class="producto-info">
+                    <h3 class="titulo">Chocotorta</h3>
+                    <p class="precio">$5500</p>
+                    <button class="boton-venta">Comprar</button>
+                    <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+        <hr class="divisor">
+
+        <section id="carrito" class="carrito-container">
+            <h2>Tu carrito</h2>
+
+            <ul class="lista-carrito">
+                <li class="item-carrito">
+                    <span class="nombre-producto">Producto Ejemplo</span>
+                    <span class="precio-producto">$1234</span>
+                    <button class="eliminar-producto">Eliminar</button>
+                </li>
+            </ul>
+
+            <div class="total-carrito">
+                <strong>Total:</strong>
+                <span>$1234</span>
+            </div>
+
+            <button class="boton-venta">Finalizar compra</button>
+        </section>
+
+        <hr class="divisor">
+
+        <section id="formulario-consultas" class="formulario-consultas">
+            <h2>Consultanos</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" rows="5" required></textarea>
+
+                <button type="submit" class="boton-enviar">Enviar</button>
+            </form>
+        </section>
+
+        <section id="formulario-reseñas" class="formulario-reseñas">
+            <h2>Dejanos tu reseña</h2>
+            <form>
+                <label for="reseña-nombre">Tu nombre:</label>
+                <input type="text" id="reseña-nombre" required>
+
+                <label for="comentario">Reseña:</label>
+                <textarea id="comentario" rows="4" required></textarea>
+
+                <label for="calificacion">Calificación:</label>
+                <select id="calificacion" required>
+                    <option value="">Seleccionar</option>
+                    <option value="5">★★★★★</option>
+                    <option value="4">★★★★☆</option>
+                    <option value="3">★★★☆☆</option>
+                    <option value="2">★★☆☆☆</option>
+                    <option value="1">★☆☆☆☆</option>
+                </select>
+
+                <button type="submit" class="boton-enviar">Enviar reseña</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nuestra Tienda - Todos los derechos reservados</p>
+        <div class="redes">
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <a href="https://wa.me/5491123456789" target="_blank">WhatsApp</a>
+    </footer>
+
+    <script src="carrito.js"></script>
+</body>
+
+</html
